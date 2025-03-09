@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <title>class 03</title>
+</head>
+
+<body>
+    <h1>A student admission form</h1>
+
+    <form action="./controller.html">
+        
+        <input type="file" accept=".jpg,.png" id="img" hidden> <br> <br>
+        <label for="fName">  Enter your name: </label>
+        <input required id="fName" type="text" placeholder="your first name">
+        
+        <br><br>
+        
+        <label for="lName">Enter your last name :</label>
+        <input type="text" id="lName" placeholder="lName..">
+        
+        <br><br>
+
+        <label for="img">
+            <img src="download.png" alt="">
+        </label>
+        <input type="file" accept=".jpg,.png" id="img" hidden> <br> <br>
+        
+        
+        
+        <label for="email">Enter your Eamil:</label>
+        <input type="email" placeholder="enter your email" id="email">
+        
+        <br><br>
+        <label for="pass">password :</label>
+        <input type="password" id="pass" placeholder="password">
+        
+        
+        <br><br>
+        <label for="con_pass">confirm password :</label>
+        <input type="password" id="con_pass" placeholder=" confirm password">
+        
+        
+        <br><br>
+        <label for="num">Number :</label>
+        <input type="number" id="num" placeholder="mobile number">
+        
+        <br><br>
+        <span>select gender</span> <br>
+        
+        
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender">
+        
+        
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender">
+        
+        
+        
+        <br> <br>
+        
+        <label for="division">select a division</label>
+        <select name="" id="">
+        
+            <option value="" disabled selected>-----select a division----</option>
+            <option value="">Dhaka</option>
+            <option value="">Barishal</option>
+            <option value="">Chattogram</option>
+            <option value="">Khulna</option>
+            <option value="">Rajshahi</option>
+            <option value="">Rangpur</option>
+            <option value="">Mymensingh</option>
+            <option value="">Sylhet</option>
+        
+        </select>
+        
+        <br> <br>
+        
+        
+        
+        <label for="birth">birth date select</label>
+        <input type="date">
+        
+        <br> <br>
+        
+        <label for="">date with time</label>
+        <input type="datetime-local">
+        
+        <br> <br>
+        
+        <label for="">just time</label>
+        <input type="time">
+        
+        <br> <br>
+        
+        <input type="range">
+        
+        <br>
+        
+        <input type="search" placeholder="search">
+        
+        <br> <br>
+        <input type="url"> <br> <br>
+        
+        
+        <input type="color">
+
+        <label for="details">details</label> <br>
+        
+        <textarea name="" id="" cols="60" rows="10" placeholder="details....."></textarea>
+        
+        
+        <button type="submit">submit</button>
+    </form>
+
+
+</body>
+
+</html>
